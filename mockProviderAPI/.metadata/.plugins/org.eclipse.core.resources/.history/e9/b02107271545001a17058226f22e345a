@@ -1,0 +1,2 @@
+cmdhistory=["\\n\\n(defroutes app-routes\\n  (GET \\"/\\" [] simple-body-page)\\n  (GET \\"/request\\" [] request-example)\\n  (route/not-found \\"Error, page not found\!\\"))" "\\n\\n(defroutes app-routes\\n  (GET \\"/\\" [] \\"test\\")\\n  (route/not-found \\"Error, page not found\!\\"))"]
+eclipse.preferences.version=1

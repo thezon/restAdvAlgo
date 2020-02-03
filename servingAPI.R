@@ -22,8 +22,21 @@ function(text = "No Parameter") {
 }
 
 
+#* @apiTitle Simple API
+
+#* Echo provided text
+#* @param text The text to be echoed in the response
+#* @get /home
+function() {
+  intelligentSecurity(text)
+  
+  list(
+    message_echo = paste("Welcome to the landing page")
+  )
+}
+
 
 
 # how to run ~ https://www.rplumber.io/
-#plumb("servingAPI.R")$run(port = "4444")
+#plumb("servingAPI.R")$run(port = 4444)
 

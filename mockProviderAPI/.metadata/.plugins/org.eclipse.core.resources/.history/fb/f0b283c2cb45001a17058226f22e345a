@@ -1,0 +1,12 @@
+(ns rest-api-attack-mitigation.model-naive)
+
+;The number of previous calls to evaluate 
+(def window-size 100)
+
+(defn intelligent-security [func]
+  (let[_ (print "IS caled")
+       safe? true]
+    (if safe? 
+      (eval func)
+      "blocked")))
+       
